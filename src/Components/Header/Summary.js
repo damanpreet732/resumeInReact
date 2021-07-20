@@ -1,11 +1,10 @@
 import React from 'react'
 
-function Summary() {
+function Summary(props) {
     return (
         <div className="summary">
             <h4>
-            Good Learning and Management skills Confident enough to learn and implement new Technologies readily. Want to learn more and
-explore IT Sector.
+                {props.summary}
             </h4>
         </div>
     )
