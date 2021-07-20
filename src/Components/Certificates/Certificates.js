@@ -1,20 +1,20 @@
 import React from 'react'
+import { FiLink } from 'react-icons/fi'
+import data from '../../constants'
 
 function Certificates() {
     return (
         <div className="certificates secInner">
             <h1># Certificates</h1>
-            <Certificate/>
-            <Certificate/>
-            <Certificate/>
+            {data.certificates.map((item,index)=><Certificate key={index} item={item} />)} 
         </div>
     )
 }
 
-const Certificate = () => {
+const Certificate = (props) => {
     return (
         <div className="certificate item">
-            <h3>{'Certificate Name/Description'}</h3>
+            <h3>{props.item.desc} {props.item.link ? <a href={props.item.link}><FiLink/></a> : null}</h3>
         </div>
     )
 }

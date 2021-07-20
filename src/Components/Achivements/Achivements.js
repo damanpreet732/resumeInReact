@@ -1,20 +1,23 @@
 import React from 'react'
+import data from '../../constants'
 
 function Achivements() {
+
+    const achivements = data.achivments;
+
     return (
         <div className="achivements secInner">
             <h1># Achivements</h1>
-            <Achivement/>
-            <Achivement/>
-            <Achivement/>
+            {achivements.map((item,index)=><Achivement key={index} item={item} />)}
         </div>
     )
 }
 
-const Achivement = () => {
+const Achivement = (props) => {
     return (
         <div className="achivement item">
-            <h3>Achivment Name</h3>
+            <h3>{props.item.name}</h3>
+            <p>{props.item.desc}</p>
         </div>
     )
 }

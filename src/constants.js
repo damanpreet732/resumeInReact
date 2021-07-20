@@ -40,60 +40,88 @@ const data = {
             contact: "09/02/2000",
         },
     ],
-    workXp:[
+    workXp: [
         {
-            post:"React Developer",
-            locName:"Sector-82/Trigma Solutions",
-            timespan:"06/2021 - Present",
-            description:"",
+            post: "React Developer",
+            locName: "Sector-82/Trigma Solutions",
+            timespan: "06/2021 - Present",
+            description: "",
         },
         {
-            post:"Intern/Junior Software Developer",
-            locName:"Delhi/Industrybuying",
-            timespan:"09/2020 - 06/2021",
-            description:"World's largest industrial product based company.",
+            post: "Intern/Junior Software Developer",
+            locName: "Delhi/Industrybuying",
+            timespan: "09/2020 - 06/2021",
+            description: "World's largest industrial product based company.",
         }
     ],
-    skills:[
+    skills: [
         {
-            name:"React",
-            rating:"90",
+            name: "React",
+            rating: "90",
         },
         {
-            name:"Angular",
-            rating:"65",
+            name: "Angular",
+            rating: "65",
         },
         {
-            name:"Java",
-            rating:"80",
+            name: "Java",
+            rating: "80",
         },
         {
-            name:"Python",
-            rating:"65",
+            name: "Python",
+            rating: "65",
         },
         {
-            name:"Django",
-            rating:"75",
+            name: "Django",
+            rating: "75",
         },
         {
-            name:"Sql/Mongoose",
-            rating:"70",
+            name: "Sql/Mongoose",
+            rating: "70",
         },
         {
-            name:"Bootstrap",
-            rating:"80",
+            name: "Bootstrap",
+            rating: "80",
         },
         {
-            name:"HTML,CSS,JS",
-            rating:"85",
+            name: "HTML,CSS,JS",
+            rating: "85",
         },
         {
-            name:"Nodejs",
-            rating:"40",
+            name: "Nodejs",
+            rating: "40",
         },
     ],
-    
-    intrusts:[
+    achivments: [
+        {
+            name: "Second price in tech treasure hunt(last event wascoding)",
+            desc: "",
+        },
+        {
+            name: "First price in Arduino coded event",
+            desc: "",
+        },
+        {
+            name: "Rythmratz zonal head (Dance event head)",
+            desc: "",
+        },
+    ],
+    certificates: [
+        {
+            desc: "aws certified form coursera",
+            link: "https://www.coursera.org/account/accomplishments/verify/6UWZ8REAWJTZ",
+        },
+        {
+            desc: "SQL certified form sololearn",
+            link: "",
+        },
+        {
+            desc: "Java Certified form MCA(mohali career academy),Sololearn",
+            link: "",
+        },
+    ],
+    languages: ["English", "Hindi", "Punjabi"],
+    intrusts: [
         "Making PPT's",
         "Volly Ball",
         "Typing",

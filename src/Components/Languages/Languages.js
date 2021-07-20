@@ -1,10 +1,11 @@
 import React from 'react'
+import data from '../../constants'
 
 function Languages() {
     return (
         <div className="languages secInner">
             <h1># Languages</h1>
-            <Language languages={["English", "Hindi", "Punjabi"]} />
+            <Language languages={data.languages} />
             <span className="item">Profession Working Proficiency</span>
         </div>
     )

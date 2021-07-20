@@ -11,6 +11,7 @@ import Intrusts from './Components/Intrusts/Intrusts';
 
 function App() {
   return (
+    <>
     <div className="app">
       <div className="body">
         <Header/>
@@ -47,6 +48,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
