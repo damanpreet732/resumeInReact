@@ -6,11 +6,7 @@ function Intrusts() {
         <div className="intrusts secInner">
             <h1># Intrusts</h1>
             <div className="intrustCollection ">
-                {
-                    ([...Array(5)].map((index,item) => 
-                        {return (<Intrust key={index}/>)}
-                    ))
-                }
+                {([...Array(5)].map((index, item) => <Intrust key={index} />))}
             </div>
         </div>
     )
