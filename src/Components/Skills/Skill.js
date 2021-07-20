@@ -15,7 +15,9 @@ function Skill(props) {
                 }
                 
             </div> */}
-            <ProgressBar bgColor="rgb(50 191 170)" completed={props.rating}/>
+            <div className="bar">
+                <ProgressBar bgColor="rgb(50 191 170)" completed={props.rating}/>
+            </div>
         </div>
     )
 }

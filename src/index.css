@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Raleway:wght@100;500;600;700&display=swap');
 
 .app{
   height: 100% ;
@@ -6,10 +6,15 @@
   flex-direction: column;
   padding: 5vw;
 }
-
-h1 {
-  color: rgb(50 191 170);
+ul li a, p {
   font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  color: rgb(50 191 170);  
   text-transform: uppercase;
 }
 
@@ -58,8 +63,12 @@ h1 {
 .profilePic div{
   height: 20vh;
   width: 20vh;
-  border: 1px solid grey;
-  border-radius: 45%;
+}
+
+.profilePic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 40%;
 }
 
 .name h1 {
@@ -83,6 +92,7 @@ h1 {
   display: flex;
   align-items: center;
   margin:0 0 0 3vw;
+  line-height: 2;
   align-content: center;
 }
 
@@ -90,6 +100,12 @@ h1 {
   margin : 0 0 0 1vw;
   text-decoration: none;
   color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.contactInfoItem svg {
+  font-size: 0.8em;
 }
 
 .sec{
@@ -124,6 +140,11 @@ h1 {
   margin-right: 3vw;
 }
 
+.bar{
+  display: flex;
+  align-items: center;
+}
+
 .intrustCollection{
   display: flex;
   flex-wrap: wrap;
@@ -135,4 +156,8 @@ h1 {
   min-width: 40%;
   display: flex;
   align-items: center;
+}
+
+.intrust > h3{
+  margin-left:1vw;
 }

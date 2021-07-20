@@ -84,13 +84,21 @@ const data = {
             rating:"80",
         },
         {
-            name:"(HTML,CSS,JS)",
+            name:"HTML,CSS,JS",
             rating:"85",
         },
         {
             name:"Nodejs",
             rating:"40",
         },
+    ],
+    
+    intrusts:[
+        "Making PPT's",
+        "Volly Ball",
+        "Typing",
+        "Reading",
+        "Music",
     ]
 }
 
