@@ -7,7 +7,7 @@ function ContactInfo(props) {
     const contact = data.contact;
 
     return (
-        <div className="contactInfo">
+        <div className="contactInfo flexDirCol">
             {contact.map(
                 (item, index) => 
                     <ContactInfoItem key={index} 

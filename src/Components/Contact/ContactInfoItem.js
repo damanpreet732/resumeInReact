@@ -30,8 +30,8 @@ function ContactInfoItem(props) {
 
     return (
         <div className="contactInfoItem">
-            {SwitchIconWithType(props.type)}
-            <a href={props.link}>{props.contact}</a>
+            {props.type && SwitchIconWithType(props.type)}
+            {props.contact && <a href={props.link}>{props.contact}</a>}
         </div>
     )
 }

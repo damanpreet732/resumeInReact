@@ -1,13 +1,12 @@
 import React from 'react'
+import data from '../../constants'
 import EducationItem from './EducationItem'
 
-function Education() {
+function Education(props) {
     return (
         <div className="education secInner">
             <h1># Education</h1>
-            <EducationItem/>
-            <EducationItem/>
-            <EducationItem/>
+            {data.education.map((item, index) => <EducationItem key={index} item={item} /> )}
         </div>
     )
 }

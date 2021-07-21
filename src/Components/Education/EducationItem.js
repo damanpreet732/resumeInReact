@@ -1,11 +1,11 @@
 import React from 'react'
 
-function EducationItem() {
+function EducationItem(props) {
     return (
         <div className="educationItem item">
-            <h2>Course</h2>
-            <h3>Campus</h3>
-            <p>Time span</p>
+            {props.item.course && <h2>{props.item.course} ( {props.item.finalGrade} )</h2>}
+            {props.item.campus && <h3>{props.item.campus}</h3>}
+            {props.item.timespan && <p>{props.item.timespan}</p>}
         </div>
     )
 }

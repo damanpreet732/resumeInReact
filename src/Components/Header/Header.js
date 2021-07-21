@@ -10,11 +10,11 @@ function Header() {
     const header = data.header;
 
     return (
-        <div className="header row">
-            <div className="headerLeftSec col-md-3">
+        <div className="header flexDirCol">
+            <div className="headerLeftSec">
                 <ProfilePic profilePic={header.profilePic} />
             </div>
-            <div className="headerRightSec col-md-9">
+            <div className="headerRightSec">
                 <Title title={header.title} />
                 <Summary summary={header.summary} />
             </div>

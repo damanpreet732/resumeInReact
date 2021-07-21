@@ -16,35 +16,22 @@ function App() {
       <div className="body">
         <Header/>
         <ContactInfo/>
-        <div className="row body-row">
-          <div className="body-col">
+        <div className="body-row flexDirCol">
+
             <div className="sec">
               <WorkXp/>
-            </div>
-            <div className="sec">
               <PersonalProjects/>
-            </div>
-            <div className="sec">
-              <Education/>
-            </div>
-          </div>
-          <div className="body-col">
-            <div className="sec">
-              <Skills/>
-            </div>
-            <div className="sec">
-              <Achivements/>
-            </div>
-            <div className="sec">
-              <Certificates/>
-            </div>
-            <div className="sec">
               <Languages/>
             </div>
+
             <div className="sec">
+              <Skills/>     
+              <Education/>
+              <Achivements/>
+              <Certificates/>
               <Intrusts/>
             </div>
-          </div>
+
         </div>
       </div>
     </div>

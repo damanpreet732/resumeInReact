@@ -14,10 +14,12 @@ body{
 
 ul li a, p {
   font-family: 'Raleway', sans-serif;
+  word-break: break-word;
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Raleway', sans-serif;
+  word-break: break-word;
 }
 
 h1 {
@@ -31,27 +33,31 @@ h1 {
   flex-direction: column;
   flex:1;
   padding:3vh;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0px 0px 40px grey;
 }
 
 .body-row{
   display: flex;
+  flex-wrap: wrap;
+  padding:3vw;
 }
 
 .body-col{
-  flex:.5;
+  /* flex:.5; */
+  flex:1;
+  min-width: 50%;
 }
 
 .header{
   padding:3vw;
-  height: 20vh;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   border-bottom: 1px solid black ;
 }
 
 .headerLeftSec{
+  flex:.4;
   display: flex;
   justify-content: center;
 }
@@ -117,15 +123,16 @@ h1 {
 }
 
 .sec{
+  width: 100%;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-self: center;
 }
 
 .secInner{
   display: flex;
   flex-direction: column;
-  padding: 3vw;
+  padding:0 3vw 0 3vw;
   flex:.5;
 }
 
@@ -173,4 +180,23 @@ h1 {
 .certificate svg{
   margin : 0 0 0 10px;
   cursor: pointer;
+}
+
+.personalProjectsItem p{
+  display: flex;
+  align-items: center;
+}
+
+.personalProjectsItem a{
+  margin: 0 10px 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .flexDirCol {
+    flex-direction: column;
+  }
+  .body{
+    padding:0;
+    line-height: 1;
+  }
 }
