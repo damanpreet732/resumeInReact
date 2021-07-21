@@ -75,14 +75,13 @@ h1 {
 }
 
 .profilePic div{
-  height: 20vh;
   width: 20vh;
 }
 
 .profilePic img {
   height: 100%;
   width: 100%;
-  border-radius: 40%;
+  border-radius: 25%;
 }
 
 .name h1 {
